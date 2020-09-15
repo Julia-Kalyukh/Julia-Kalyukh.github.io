@@ -1509,7 +1509,7 @@
   }
   .excellent {
     background-image: none;
-    padding: 1em;
+    padding: 1em 1em 1em 1em;
   }
   .excellent_title {
     padding: 0.5em;
@@ -1522,6 +1522,9 @@
   .excellent_list {
     padding: 0 0 0 2.5em;
     margin-bottom: 1em;
+  }
+  .excellent_title {
+    margin-top: 0;
   }
   .counters_list {
     -ms-flex-wrap: wrap;
@@ -1624,7 +1627,10 @@
     padding: 1em;
   }
   .excellent {
-    padding: 5em 2em 0 3em;
+    padding: 1em;
+  }
+  .excellent_title {
+    margin-top: 2em;
   }
   .recent_posts {
     -webkit-box-orient: vertical;
