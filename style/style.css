@@ -1181,7 +1181,7 @@
       flex-wrap: wrap;
 }
 
-.partner_img {
+.partner {
   margin: 0 3em;
 }
 
@@ -1565,9 +1565,6 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding: 5em 0;
-  }
-  .partner {
-    margin: 1em;
   }
   .footer_top {
     -ms-flex-wrap: wrap;
