@@ -600,9 +600,10 @@
     }
         .video_text{
             position: absolute;
+            width: 100%;
             top: (100vh/1.7);
             text-align: center;
-            width: 100%;
+            padding: 0 20em;
             font-size: 16px;
             line-height: 28px;
             font-weight: 300;
@@ -652,11 +653,11 @@
 }
     .counters_list{
         display: flex;
-        justify-content: space-around;
-        padding: 4em 15em;
+        justify-content: space-between;
+        padding: 4em 5em;
+        flex-wrap: wrap;
     }
         .counters_list_item{
-            margin-right: 5em;
             list-style-type: none;
             text-align: center;
         }
@@ -852,6 +853,7 @@
         display: flex;
         padding: 10em 0;
         justify-content: center;
+        flex-wrap: wrap;
     }
         .partner_img{
             margin: 0 3em;
@@ -863,6 +865,7 @@
         display: flex;
         padding: 5em;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
         .footer_waxom{
             max-width: 258px;
@@ -963,6 +966,7 @@
         display: flex;
         padding: 3em 6.5em;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
         .footer_copyright{
             display: flex;
@@ -1028,11 +1032,14 @@
         display: none;
     }
     .slider_title_mini{
-        font-size: 24px;
+        font-size: 22px;
     }
     .slider_title{
-        font-size: 28px;
+        font-size: 30px;
         padding: 0.5em;
+    }
+    .slider_text{
+        padding: 0 1em;
     }
     .control_bottom{
         margin-bottom: 10em;
@@ -1042,27 +1049,32 @@
     .options{
         display: flex;
         flex-wrap: wrap;
-        padding: 1em;
+        padding: 2em 1em 5em 1em;
     }
     .option_card{
         flex-basis: 100%;
         margin: 2em 0 0 0;
+    }
+    .option_title{
+        font-weight: 900;
     }
     .option_text{
         padding: 0 4em;
     }
     .realization{
         flex-wrap: wrap;
-        padding: 1em;
+        padding: 3em 1em 0 1em;
+    }
+    .realization_title{
+        font-weight: 100;
     }
     .realization_img_block{
         display: flex;
         flex-direction: column;
         align-self: center;
     }
-    .realization_img_1, .realization_img_2, .realization_img_3{
+    .realization_img_1, .realization_img_3, .realization_img_2{
         display: block;
-        width: 98%;
         position: relative;
         right: 0;
         left: 0;
@@ -1073,7 +1085,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 2em 3em;
+        padding: 2em;
     }
     .purchase_now_title{
         font-size: 18px;
@@ -1082,12 +1094,16 @@
         font-size: 16px;
         padding: 0.5em 0 1em 0;
     }
+    .purchase_now_button{
+        max-width: 200px;
+        align-self: center;
+    }
     .projects_cards{
         padding: 1em;
     }
     .projects_filter{
         justify-content: center;
-        width: 70%;
+        width: 90%;
         margin: 0 0 1.5em;
     }
     .projects_filter_btn{
@@ -1101,13 +1117,17 @@
         background-image: none;
         padding: 1em;
     }
-    .excellent_title, .excellent_text{
-        padding: 1em;
+    .excellent_title{
+        padding: 0.5em;
         text-align: center;
+        font-size: 26px;
+    }
+    .excellent_text{
+        padding: 0.5em;
     }
     .excellent_list{
-        padding: 2em;
-        margin-bottom: 2em;
+        padding: 0 0 0 2.5em;
+        margin-bottom: 1em;
     }
     .counters_list{
         flex-wrap: wrap;
@@ -1128,8 +1148,7 @@
         margin: 0 auto;
     }
     .recent_post_card{
-        margin: 1em;;
-
+        margin: 1em;
     }
     .recent_post_img{
         width: 100%;
@@ -1137,9 +1156,12 @@
     .recent_bottom{
         display: none;
     }
+    .recent_posts_control{
+        padding: 1em 0 2.5em 0;
+    }
     .partners{
         flex-wrap: wrap;
-        padding: 1em;
+        padding: 5em 0;
     }
     .partner{
         margin: 1em;
@@ -1157,5 +1179,54 @@
     }
     .video_text, .video_title{
         padding: 0 1em;
+    }
+    .video_text{
+        top: (100vh/1.5);
+    }
+}
+@media (max-width: 770px){
+    .slider_control{
+        display: none;
+    }
+    .option_card{
+        flex-wrap: wrap;
+    }
+    .realization_img_block{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .realization_img_1, .realization_img_2, .realization_img_3{
+        display: block;
+        width: 100%;
+        position: relative;
+        right: 0;
+        left: 0;
+        margin: 0.5em 0 0;
+    }
+    .purchase_now{
+        margin-top: -0.3em;
+    }
+    .video_text{
+        padding: 1em;
+    }
+    .excellent{
+        padding: 5em 2em 0 3em;
+    }
+    .recent_posts{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .recent_post_card{
+        margin: 1em;
+    }
+    .recent_post_img{
+        width: 100%;
+    }
+    .counters_list{
+        padding: 4em 2em;
+    }
+    .partner{
+        padding: 1em;
     }
 }
