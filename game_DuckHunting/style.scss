@@ -1,0 +1,66 @@
+@for $i from 1 through 10 {
+    @keyframes fly-duck-#{$i} {
+        0% {
+            left: -10%;
+            top: random(70) + vh;
+        }
+        30% {
+            left: random (70) + vh;
+            top: random(70) + vh;
+        }
+        50% {
+            left: random (70) + vh;
+            top: random(70) + vh;
+        }
+        80% {
+            left: random (70) + vh;
+            top: random(70) + vh;
+        }
+        100% {
+            left: 101%;
+            top: random(70) + vh;
+        }
+    }
+}
+body {
+    background-image: url(https://sun1-98.userapi.com/gJJp2ww3N8BuQ2blchJ7KsfaL6kzpQD0MRWhAg/M_OYtwQJNFY.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    counter-reset: count;
+    position: relative;
+}
+input[type="checkbox"] {
+    position: absolute;
+    visibility: hidden;
+    left: -101%;
+}
+@for $i from 1 through 10 {
+    .duck-#{$i} {
+        position: absolute;
+        animation: fly-duck-#{$i} 4s linear #{$i}s 1 both;
+    }
+}
+h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 32px;
+    color: black;
+    border-style: ridge;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: black;
+}
+img {
+    width: 8%;
+}
+input[type="checkbox"]:checked {
+    counter-increment: count;
+}
+input[type="checkbox"]:checked + img {
+    visibility: hidden;
+}
+h2:after {
+    content: " " counter(count);
+}

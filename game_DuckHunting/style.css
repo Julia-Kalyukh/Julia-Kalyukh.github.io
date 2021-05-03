@@ -1,0 +1,563 @@
+@-webkit-keyframes fly-duck-1 {
+  0% {
+    left: -10%;
+    top: 32vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 65vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 21vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 16vh;
+  }
+  100% {
+    left: 101%;
+    top: 46vh;
+  }
+}
+
+@keyframes fly-duck-1 {
+  0% {
+    left: -10%;
+    top: 32vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 65vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 21vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 16vh;
+  }
+  100% {
+    left: 101%;
+    top: 46vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-2 {
+  0% {
+    left: -10%;
+    top: 43vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 17vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 2vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 10vh;
+  }
+  100% {
+    left: 101%;
+    top: 70vh;
+  }
+}
+
+@keyframes fly-duck-2 {
+  0% {
+    left: -10%;
+    top: 43vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 17vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 2vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 10vh;
+  }
+  100% {
+    left: 101%;
+    top: 70vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-3 {
+  0% {
+    left: -10%;
+    top: 23vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 49vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 51vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 62vh;
+  }
+  100% {
+    left: 101%;
+    top: 22vh;
+  }
+}
+
+@keyframes fly-duck-3 {
+  0% {
+    left: -10%;
+    top: 23vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 49vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 51vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 62vh;
+  }
+  100% {
+    left: 101%;
+    top: 22vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-4 {
+  0% {
+    left: -10%;
+    top: 25vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 52vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 55vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 28vh;
+  }
+  100% {
+    left: 101%;
+    top: 14vh;
+  }
+}
+
+@keyframes fly-duck-4 {
+  0% {
+    left: -10%;
+    top: 25vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 52vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 55vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 28vh;
+  }
+  100% {
+    left: 101%;
+    top: 14vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-5 {
+  0% {
+    left: -10%;
+    top: 21vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 9vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 50vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 48vh;
+  }
+  100% {
+    left: 101%;
+    top: 17vh;
+  }
+}
+
+@keyframes fly-duck-5 {
+  0% {
+    left: -10%;
+    top: 21vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 9vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 50vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 48vh;
+  }
+  100% {
+    left: 101%;
+    top: 17vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-6 {
+  0% {
+    left: -10%;
+    top: 6vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 40vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 46vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 51vh;
+  }
+  100% {
+    left: 101%;
+    top: 14vh;
+  }
+}
+
+@keyframes fly-duck-6 {
+  0% {
+    left: -10%;
+    top: 6vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 40vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 46vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 51vh;
+  }
+  100% {
+    left: 101%;
+    top: 14vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-7 {
+  0% {
+    left: -10%;
+    top: 11vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 56vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 10vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 17vh;
+  }
+  100% {
+    left: 101%;
+    top: 69vh;
+  }
+}
+
+@keyframes fly-duck-7 {
+  0% {
+    left: -10%;
+    top: 11vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 56vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 10vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 17vh;
+  }
+  100% {
+    left: 101%;
+    top: 69vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-8 {
+  0% {
+    left: -10%;
+    top: 27vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 64vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 41vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 11vh;
+  }
+  100% {
+    left: 101%;
+    top: 58vh;
+  }
+}
+
+@keyframes fly-duck-8 {
+  0% {
+    left: -10%;
+    top: 27vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 64vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 41vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 11vh;
+  }
+  100% {
+    left: 101%;
+    top: 58vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-9 {
+  0% {
+    left: -10%;
+    top: 19vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 6vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 13vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 10vh;
+  }
+  100% {
+    left: 101%;
+    top: 13vh;
+  }
+}
+
+@keyframes fly-duck-9 {
+  0% {
+    left: -10%;
+    top: 19vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 6vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 13vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 10vh;
+  }
+  100% {
+    left: 101%;
+    top: 13vh;
+  }
+}
+
+@-webkit-keyframes fly-duck-10 {
+  0% {
+    left: -10%;
+    top: 21vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 65vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 63vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 24vh;
+  }
+  100% {
+    left: 101%;
+    top: 67vh;
+  }
+}
+
+@keyframes fly-duck-10 {
+  0% {
+    left: -10%;
+    top: 21vh;
+  }
+  30% {
+    left: random 70vh;
+    top: 65vh;
+  }
+  50% {
+    left: random 70vh;
+    top: 63vh;
+  }
+  80% {
+    left: random 70vh;
+    top: 24vh;
+  }
+  100% {
+    left: 101%;
+    top: 67vh;
+  }
+}
+
+body {
+  background-image: url(https://sun1-98.userapi.com/gJJp2ww3N8BuQ2blchJ7KsfaL6kzpQD0MRWhAg/M_OYtwQJNFY.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  counter-reset: count;
+  position: relative;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  visibility: hidden;
+  left: -101%;
+}
+
+.duck-1 {
+  position: absolute;
+  -webkit-animation: fly-duck-1 4s linear 1s 1 both;
+          animation: fly-duck-1 4s linear 1s 1 both;
+}
+
+.duck-2 {
+  position: absolute;
+  -webkit-animation: fly-duck-2 4s linear 2s 1 both;
+          animation: fly-duck-2 4s linear 2s 1 both;
+}
+
+.duck-3 {
+  position: absolute;
+  -webkit-animation: fly-duck-3 4s linear 3s 1 both;
+          animation: fly-duck-3 4s linear 3s 1 both;
+}
+
+.duck-4 {
+  position: absolute;
+  -webkit-animation: fly-duck-4 4s linear 4s 1 both;
+          animation: fly-duck-4 4s linear 4s 1 both;
+}
+
+.duck-5 {
+  position: absolute;
+  -webkit-animation: fly-duck-5 4s linear 5s 1 both;
+          animation: fly-duck-5 4s linear 5s 1 both;
+}
+
+.duck-6 {
+  position: absolute;
+  -webkit-animation: fly-duck-6 4s linear 6s 1 both;
+          animation: fly-duck-6 4s linear 6s 1 both;
+}
+
+.duck-7 {
+  position: absolute;
+  -webkit-animation: fly-duck-7 4s linear 7s 1 both;
+          animation: fly-duck-7 4s linear 7s 1 both;
+}
+
+.duck-8 {
+  position: absolute;
+  -webkit-animation: fly-duck-8 4s linear 8s 1 both;
+          animation: fly-duck-8 4s linear 8s 1 both;
+}
+
+.duck-9 {
+  position: absolute;
+  -webkit-animation: fly-duck-9 4s linear 9s 1 both;
+          animation: fly-duck-9 4s linear 9s 1 both;
+}
+
+.duck-10 {
+  position: absolute;
+  -webkit-animation: fly-duck-10 4s linear 10s 1 both;
+          animation: fly-duck-10 4s linear 10s 1 both;
+}
+
+h2 {
+  position: absolute;
+  bottom: 20px;
+  left: 32px;
+  color: black;
+  border-style: ridge;
+  border-width: 3px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-color: black;
+}
+
+img {
+  width: 8%;
+}
+
+input[type="checkbox"]:checked {
+  counter-increment: count;
+}
+
+input[type="checkbox"]:checked + img {
+  visibility: hidden;
+}
+
+h2:after {
+  content: " " counter(count);
+}
+/*# sourceMappingURL=style.css.map */
