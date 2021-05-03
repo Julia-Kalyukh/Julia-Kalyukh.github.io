@@ -1,1 +1,1 @@
-Макет №1 (Курс HTML5 и CSS3 от GeekBrains) Демо: https://julia-kalyukh.github.io/website2_Product
+Макет №1 ("HTML/CSS. Интерактивный курс" от GeekBrains) Демо: https://julia-kalyukh.github.io/website1_NewAutomation
