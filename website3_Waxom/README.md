@@ -1,2 +1,2 @@
-# hw2_html5
-отредактировать поиск, id
+Макет №2 (Курс HTML5 и CSS3 от GeekBrains)
+You can use this 
