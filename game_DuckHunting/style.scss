@@ -1,7 +1,7 @@
 @for $i from 1 through 10 {
     @keyframes fly-duck-#{$i} {
         0% {
-            left: -10%;
+            left: -25%;
             top: random(70) + vh;
         }
         30% {
@@ -17,7 +17,7 @@
             top: random(70) + vh;
         }
         100% {
-            left: 101%;
+            left: 110%;
             top: random(70) + vh;
         }
     }
@@ -33,7 +33,7 @@ body {
 input[type="checkbox"] {
     position: absolute;
     visibility: hidden;
-    left: -101%;
+    left: -105%;
 }
 @for $i from 1 through 10 {
     .duck-#{$i} {
@@ -63,4 +63,9 @@ input[type="checkbox"]:checked + img {
 }
 h2:after {
     content: " " counter(count);
+}
+@media (max-width: 500px) {
+    img {
+        width: 20%;
+    }
 }
