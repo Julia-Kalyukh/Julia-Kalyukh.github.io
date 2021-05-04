@@ -1,3 +1,3 @@
-Макет №2 (Курс HTML5 и CSS3 от GeekBrains)
+# Макет №2 (Курс "HTML5 и CSS3 lvl 2" от GeekBrains)
 
-Демо: https://julia-kalyukh.github.io/website3_Waxom
+You can use this [demo ▶️](https://julia-kalyukh.github.io/website3_Waxom)
