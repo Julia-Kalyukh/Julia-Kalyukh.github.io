@@ -1,3 +1,3 @@
-# Макет №1 ("HTML/CSS. Интерактивный курс" от GeekBrains) 
+# Макет №1 ("HTML/CSS. Интерактивный курс lvl 1" от GeekBrains) 
 
 You can use this [demo ▶️](https://julia-kalyukh.github.io/website1_NewAutomation)
