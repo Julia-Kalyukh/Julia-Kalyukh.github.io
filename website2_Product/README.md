@@ -1,3 +1,3 @@
-Макет №1 (Курс HTML5 и CSS3 от GeekBrains)
+# Макет №1 (Курс HTML5 и CSS3 от GeekBrains lvl 2)
 
-Демо: https://julia-kalyukh.github.io/website2_Product
+You can use this [demo ▶️](https://julia-kalyukh.github.io/website2_Product)
