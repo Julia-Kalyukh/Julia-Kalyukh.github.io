@@ -3,3 +3,5 @@
 You can use this [demo ▶️](https://julia-kalyukh.github.io/website1_NewAutomation)
 
 Mobile first ✅
+
+Pages 2️⃣
