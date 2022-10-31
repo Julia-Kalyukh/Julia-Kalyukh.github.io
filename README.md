@@ -1,4 +1,4 @@
-# VideoApplication
+# ◈ VideoApplication
 
 - SVG
 - Sass
