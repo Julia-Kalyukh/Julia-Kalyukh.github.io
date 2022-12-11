@@ -9,7 +9,7 @@
 - Pseudo-elements
 - Absolute positioning
 
-<h2 align="center"><a  href="https://julia-kalyukh.github.io/VideoApplication/">Live Demo</a></h2>
+<h2 align="center"><a  href="https://julia-kalyukh.github.io/videoApp/">Live Demo</a></h2>
 
 
 # 🦆 Game "Duck Hunting"
